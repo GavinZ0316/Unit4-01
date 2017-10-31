@@ -1,0 +1,106 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {672, 598}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : true,
+        "frame" : "{{16, 28}, {469, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{261, 283}, {150, 32}}",
+          "uuid" : "CEF28AF5-DB19-41EF-B6A2-08BD85EB67B6",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "In put  Celsius get Fahrenheit",
+          "name" : "label1",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{377, 101}, {200, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{236, 283}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "03F50145-6C1E-4A13-A97B-8A0D3935785D",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "Temperature_Celsius_textbox",
+          "font_size" : 17
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{16, 101}, {337, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{261, 283}, {150, 32}}",
+          "uuid" : "5E5A2298-0B5D-4BF8-98A0-00F537040C96",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Temperature in degrees Celsius is:",
+          "name" : "label2",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{31, 164}, {123, 37}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "calculate_button_touch_up_inside",
+          "frame" : "{{296, 283}, {80, 32}}",
+          "title" : "Calculate",
+          "uuid" : "A9CABE94-6D44-4752-99E8-931A7F6A14E2",
+          "class" : "Button",
+          "name" : "calculate_button",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{16, 233}, {229, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{261, 283}, {150, 32}}",
+          "uuid" : "C94D8AF4-8969-49F4-BEBE-9A95941E6A37",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "Temperature_Fahrenheit_answer_label",
+          "font_size" : 18
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
